@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface BMOTutorialLibraryEmDebugLibrary : NSObject
-
+- (void)presentRegistrationInView:(id)viewController;
+- (void)presentAboutUsInView:(id)viewController;
 @end

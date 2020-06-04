@@ -7,7 +7,23 @@
 //
 
 #import "BMOTutorialLibraryEmDebugLibrary.h"
+#import "RegistrationViewController.h"
+#import "AboutUsViewController.h"
 
 @implementation BMOTutorialLibraryEmDebugLibrary
+- (void)presentRegistrationInView:(id)viewController {
+    NSBundle *recursos = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"Recursos" withExtension:@"bundle"]];
+    
+    RegistrationViewController *registrationVC = [[RegistrationViewController alloc] initWithNibName:@"RegistrationViewController" bundle:recursos];
+    
+    [viewController presentViewController:registrationVC animated:YES completion:nil];
+}
 
+- (void)presentAboutUsInView:(id)viewController {
+    NSBundle *main = [NSBundle mainBundle];
+    
+    AboutUsViewController *infoVC = [[AboutUsViewController alloc] initWithNibName:@"AboutUsViewController" bundle:main];
+    
+    [viewController presentViewController:infoVC animated:YES completion:nil];
+}
 @end

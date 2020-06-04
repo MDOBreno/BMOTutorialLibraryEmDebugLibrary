@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		33032040248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303203F248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.m */; };
 		33032041248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3303203E248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.h */; };
+		330320502489811200BC9FAD /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330320492489811100BC9FAD /* AboutUsViewController.m */; };
+		330320512489811200BC9FAD /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303204C2489811100BC9FAD /* SuccessViewController.m */; };
+		330320522489811200BC9FAD /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303204D2489811200BC9FAD /* RegistrationViewController.m */; };
+		3303205D2489904C00BC9FAD /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 330320472489811100BC9FAD /* RegistrationViewController.xib */; };
+		3303205E2489904C00BC9FAD /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3303204F2489811200BC9FAD /* SuccessViewController.xib */; };
+		330320602489930300BC9FAD /* AboutUsViewController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3303204B2489811100BC9FAD /* AboutUsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,6 +24,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				330320602489930300BC9FAD /* AboutUsViewController.xib in CopyFiles */,
 				33032041248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -28,10 +35,28 @@
 		3303203B248980E300BC9FAD /* libBMOTutorialLibraryEmDebugLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBMOTutorialLibraryEmDebugLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3303203E248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMOTutorialLibraryEmDebugLibrary.h; sourceTree = "<group>"; };
 		3303203F248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMOTutorialLibraryEmDebugLibrary.m; sourceTree = "<group>"; };
+		330320472489811100BC9FAD /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		330320482489811100BC9FAD /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		330320492489811100BC9FAD /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		3303204A2489811100BC9FAD /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		3303204B2489811100BC9FAD /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		3303204C2489811100BC9FAD /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		3303204D2489811200BC9FAD /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		3303204E2489811200BC9FAD /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		3303204F2489811200BC9FAD /* SuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
+		330320572489814B00BC9FAD /* Recursos.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Recursos.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		330320592489814B00BC9FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		33032038248980E300BC9FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330320542489814B00BC9FAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				3303203D248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary */,
+				330320582489814B00BC9FAD /* Recursos */,
 				3303203C248980E300BC9FAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				3303203B248980E300BC9FAD /* libBMOTutorialLibraryEmDebugLibrary.a */,
+				330320572489814B00BC9FAD /* Recursos.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,8 +89,25 @@
 			children = (
 				3303203E248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.h */,
 				3303203F248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.m */,
+				330320482489811100BC9FAD /* AboutUsViewController.h */,
+				330320492489811100BC9FAD /* AboutUsViewController.m */,
+				3303204B2489811100BC9FAD /* AboutUsViewController.xib */,
+				3303204A2489811100BC9FAD /* RegistrationViewController.h */,
+				3303204D2489811200BC9FAD /* RegistrationViewController.m */,
+				3303204E2489811200BC9FAD /* SuccessViewController.h */,
+				3303204C2489811100BC9FAD /* SuccessViewController.m */,
 			);
 			path = BMOTutorialLibraryEmDebugLibrary;
+			sourceTree = "<group>";
+		};
+		330320582489814B00BC9FAD /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				330320472489811100BC9FAD /* RegistrationViewController.xib */,
+				3303204F2489811200BC9FAD /* SuccessViewController.xib */,
+				330320592489814B00BC9FAD /* Info.plist */,
+			);
+			path = Recursos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +130,23 @@
 			productReference = 3303203B248980E300BC9FAD /* libBMOTutorialLibraryEmDebugLibrary.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		330320562489814B00BC9FAD /* Recursos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3303205A2489814B00BC9FAD /* Build configuration list for PBXNativeTarget "Recursos" */;
+			buildPhases = (
+				330320532489814B00BC9FAD /* Sources */,
+				330320542489814B00BC9FAD /* Frameworks */,
+				330320552489814B00BC9FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recursos;
+			productName = Recursos;
+			productReference = 330320572489814B00BC9FAD /* Recursos.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +157,9 @@
 				ORGANIZATIONNAME = ProgramasBMO;
 				TargetAttributes = {
 					3303203A248980E300BC9FAD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					330320562489814B00BC9FAD = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -114,16 +178,39 @@
 			projectRoot = "";
 			targets = (
 				3303203A248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary */,
+				330320562489814B00BC9FAD /* Recursos */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330320552489814B00BC9FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3303205D2489904C00BC9FAD /* RegistrationViewController.xib in Resources */,
+				3303205E2489904C00BC9FAD /* SuccessViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33032037248980E300BC9FAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330320502489811200BC9FAD /* AboutUsViewController.m in Sources */,
+				330320522489811200BC9FAD /* RegistrationViewController.m in Sources */,
+				330320512489811200BC9FAD /* SuccessViewController.m in Sources */,
 				33032040248980E300BC9FAD /* BMOTutorialLibraryEmDebugLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330320532489814B00BC9FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +351,40 @@
 			};
 			name = Release;
 		};
+		3303205B2489814B00BC9FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L5RH7482C6;
+				INFOPLIST_FILE = Recursos/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.Recursos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3303205C2489814B00BC9FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L5RH7482C6;
+				INFOPLIST_FILE = Recursos/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.Recursos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -281,6 +402,15 @@
 			buildConfigurations = (
 				33032045248980E300BC9FAD /* Debug */,
 				33032046248980E300BC9FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3303205A2489814B00BC9FAD /* Build configuration list for PBXNativeTarget "Recursos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3303205B2489814B00BC9FAD /* Debug */,
+				3303205C2489814B00BC9FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
